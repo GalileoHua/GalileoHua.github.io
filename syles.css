@@ -15,11 +15,6 @@ body footer {
     /* [disabled]border-width: medium; */
     clear: both;
 }
-
-
-.获奖专利 p {
-    font-weight: 600;
-}
 body {
     background-image: url(images/背景.gif);
 
@@ -28,14 +23,16 @@ body {
     color: #FFFFFF;
     text-decoration: none;
 }
-.获奖专利 {
-    padding-left: 15%;
-    padding-right: 15%;
-}
 .图片 {
     margin-left: 0%;
 
 }
+.底色内容 {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #CCC9C9;
+}
+
 .小标题 {
     font-weight: 600;
     font-size: large;
@@ -46,4 +43,8 @@ body {
 }
 .个人图片 {
     margin-left: 15%;
+}
+.居左 {
+    float: none;
+    text-align: left;
 }
