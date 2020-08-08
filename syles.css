@@ -1,0 +1,49 @@
+@charset "utf-8";
+body footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    /* [disabled]padding-bottom: 0px; */
+    /* [disabled]border-width: medium; */
+    clear: both;
+}
+
+
+.获奖专利 p {
+    font-weight: 600;
+}
+body {
+    background-image: url(images/背景.gif);
+
+}
+.彩蛋链接 {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.获奖专利 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.图片 {
+    margin-left: 0%;
+
+}
+.小标题 {
+    font-weight: 600;
+    font-size: large;
+}
+.我的表格 {
+    margin-right: 43%;
+    float: right;
+}
+.个人图片 {
+    margin-left: 15%;
+}
