@@ -8,20 +8,13 @@ body footer {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    /* [disabled]padding-bottom: 0px; */
     /* [disabled]border-width: medium; */
-    clear: both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: medium;
 }
 body {
-    background-image: url(images/背景.gif);
-
-}
-.彩蛋链接 {
-    color: #FFFFFF;
-    text-decoration: none;
+    background-image: url(images/背景.gif)
 }
 .图片 {
     margin-left: 0%;
@@ -47,4 +40,43 @@ body {
 .居左 {
     float: none;
     text-align: left;
+}
+.大标题 {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    padding-right: 0px;
+    padding-bottom: 0%;
+    padding-top: 0px;
+}
+.导航栏 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #C0FF00;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+.导航栏链接 {
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    background-color: #C0FF00;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.导航栏链接:hover {
+    background-color: #AD7626;
+    color: #FFFFFF;
 }
