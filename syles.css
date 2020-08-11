@@ -80,3 +80,24 @@ body {
     background-color: #AD7626;
     color: #FFFFFF;
 }
+.小型黑底 {
+    background-color: #000000;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.小型黑底:hover {
+    color: #FFFFFF;
+}
+.列表空隙 {
+    margin-bottom: 2%;
+}
+.视频居中 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.居中小标题 {
+    text-align: center;
+    font-weight: 800;
+    font-size: large;
+}
